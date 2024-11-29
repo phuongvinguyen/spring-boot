@@ -1,4 +1,4 @@
-FROM ubuntu:jammy-20231211.1
+FROM ubuntu:22.04
 RUN apt-get update && \
     apt-get install -y software-properties-common curl && \
     mkdir -p /opt/oraclejdk && \
