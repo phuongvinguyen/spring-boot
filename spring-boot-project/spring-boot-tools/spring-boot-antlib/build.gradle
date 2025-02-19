@@ -7,7 +7,7 @@ plugins {
 description = "Spring Boot Antlib"
 
 ext {
-	antVersion = "1.10.7"
+	antVersion = "1.10.15"
 }
 
 configurations {
