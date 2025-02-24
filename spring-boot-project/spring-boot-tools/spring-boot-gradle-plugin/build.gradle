@@ -18,7 +18,7 @@ configurations {
 	antoraContent
 	"testCompileClasspath" {
 		// Downgrade SLF4J is required for tests to run in Eclipse
-		resolutionStrategy.force("org.slf4j:slf4j-api:1.7.36")
+		resolutionStrategy.force("org.slf4j:slf4j-api:2.0.16")
 	}
 }
 
