@@ -40,7 +40,7 @@ jobs:
           distribution: 'liberica'
           java-version: 17
       - name: Set Up Homebrew
-        uses: Homebrew/actions/setup-homebrew@8c065d9d9842db90b9543dc758b3b8dd6b0889a4
+        uses: Homebrew/actions/setup-homebrew@8621e5532e069770650da7e17f5acf72072497c1
       - name: Set Up Gradle
         uses: gradle/actions/setup-gradle@06832c7b30a0129d7fb559bcc6e43d26f6374244 # v4.3.1
         with:
