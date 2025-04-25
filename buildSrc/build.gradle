@@ -24,7 +24,7 @@ new File(projectDir.parentFile, "gradle.properties").withInputStream {
 		versions[it] = properties[it + "Version"]
 	}
 }
-versions["jackson"] = "2.18.3"
+versions["jackson"] = "2.19.0"
 versions["springFramework"] = "6.2.6"
 ext.set("versions", versions)
 if (versions.springFramework.contains("-")) {
