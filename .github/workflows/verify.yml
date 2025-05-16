@@ -42,7 +42,7 @@ jobs:
       - name: Set Up Homebrew
         uses: Homebrew/actions/setup-homebrew@62b60dcf99c9d2f2ef0b77fc1134dea723942a71
       - name: Set Up Gradle
-        uses: gradle/actions/setup-gradle@06832c7b30a0129d7fb559bcc6e43d26f6374244 # v4.3.1
+        uses: gradle/actions/setup-gradle@8379f6a1328ee0e06e2bb424dadb7b159856a326 # v4.4.0
         with:
           cache-read-only: false
       - name: Configure Gradle Properties
