@@ -46,7 +46,7 @@ dependencies {
 	implementation("dev.adamko.dokkatoo:dokkatoo-plugin:2.4.0")
 	implementation("com.fasterxml.jackson.core:jackson-databind:${versions.jackson}")
 	implementation("com.github.node-gradle:gradle-node-plugin:7.1.0")
-	implementation("com.gradle:develocity-gradle-plugin:4.0.1")
+	implementation("com.gradle:develocity-gradle-plugin:4.0.2")
 	implementation("com.tngtech.archunit:archunit:1.4.1")
 	implementation("commons-codec:commons-codec:${versions.commonsCodec}")
 	implementation("de.undercouch.download:de.undercouch.download.gradle.plugin:5.6.0")
