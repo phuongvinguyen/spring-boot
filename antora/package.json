@@ -3,7 +3,7 @@
     "antora": "node npm/antora.js"
   },
   "dependencies": {
-    "@antora/cli": "3.2.0-alpha.8",
+    "@antora/cli": "3.2.0-alpha.9",
     "@antora/site-generator": "3.2.0-alpha.8",
     "@antora/atlas-extension": "1.0.0-alpha.2",
     "@springio/antora-extensions": "1.14.7",
