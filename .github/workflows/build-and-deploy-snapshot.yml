@@ -12,7 +12,7 @@ jobs:
     if: ${{ github.repository == 'spring-projects/spring-boot' }}
     steps:
       - name: Check Out Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Build and Publish
         id: build-and-publish
         uses: ./.github/actions/build
